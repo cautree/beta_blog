@@ -42,26 +42,36 @@ $navbar-default-bg: green;
     background-color: green;
 }
 
-.article-actions{
+.article-actions {
     border-top: 1px solid #eaeaea;
     padding-top: 5px;
+    }
+
+ .description{
+    margin-top: 0;
 }
 
-.description{
-    margin-top:0;
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
+.article-body{
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 footer {
-    margin-top:45px;
-    padding-top:5px;
-    border-top: 1px solid #eaeaea;
-    color:#777;
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid green;
+    color: #777;
 }
 
 
 footer a:hover{
-    color:#222;
+    color: #222;
 }
 
 
@@ -70,11 +80,11 @@ footer small{
 }
 
 footer ul{
-    float:right;
-    list-style:none;
+    float: right;
+    list-style: none;
 }
 
 footer ul li{
-    float:left;
+    float: left;
     margin-left: 15px;
 }
