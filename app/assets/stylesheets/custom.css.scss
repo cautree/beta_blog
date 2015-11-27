@@ -28,11 +28,11 @@ $navbar-default-bg: green;
 }
 
 .jumbotron h1{
-    color: #fff;
-    text-align:center;
+    color:  #fff;
+    text-align: center;
     margin-bottom: 30px;
-    letter-spacing:-1px;
-    font-weight:bold;
+    letter-spacing: -1px;
+    font-weight: bold;
     
 }
 
@@ -40,6 +40,11 @@ $navbar-default-bg: green;
 .btn-xlg{
     font-size: 1.7em;
     background-color: green;
+}
+
+.article-meta-details{
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
 }
 
 .article-actions {
